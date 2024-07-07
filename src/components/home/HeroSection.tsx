@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import PaddingWrapper from "@/components/layouts/PaddingWrapper";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 function HeroSection() {
   return (
@@ -21,21 +22,34 @@ function HeroSection() {
               </div>
               <div className="hidden lg:flex">
                 <nav className="flex space-x-4">
-                  <Button variant="link" className=" text-white  ">
-                    Home
-                  </Button>
-                  <Button variant="link" className=" text-white ">
-                    About
-                  </Button>
-                  <Button variant="link" className=" text-white ">
-                    Services
-                  </Button>
-                  <Button variant="link" className=" text-white ">
-                    Project
-                  </Button>
-                  <Button variant="link" className=" text-white ">
-                    Contact
-                  </Button>
+                  <Link href="/">
+                    <Button variant="link" className=" text-white ">
+                      Home
+                    </Button>
+                  </Link>
+
+                  <Link href="/about">
+                    <Button variant="link" className="text-white ">
+                      About
+                    </Button>
+                  </Link>
+                  <Link href="/services">
+                    <Button variant="link" className="text-white ">
+                      Services
+                    </Button>
+                  </Link>
+
+                  <Link href="/projects">
+                    <Button variant="link" className=" text-white  ">
+                      Project
+                    </Button>
+                  </Link>
+
+                  <Link href="/contact">
+                    <Button variant="link" className="text-white  ">
+                      Contact
+                    </Button>
+                  </Link>
                 </nav>
               </div>
             </div>

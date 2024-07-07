@@ -1,36 +1,32 @@
-"use client";
-import PaddingWrapper from "@/components/layouts/PaddingWrapper";
-import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import React from "react";
+import PaddingWrapper from "./PaddingWrapper";
 
-const Header = () => {
+function Header({
+  imgUrl,
+  title,
+  desc,
+}: {
+  imgUrl: string;
+  title: string;
+  desc: string;
+}) {
   return (
-    <header className="z-10 top-0 left-0 right-0  bg-white h-[100px] w-full ">
-      <PaddingWrapper>
-        <div className="flex w-full items-center justify-between">
-          <div className="relative h-[60px] w-[160px] cursor-pointer">
-            <Image
-              src="/images/logo.png"
-              alt="genderdynamics Logo"
-              fill
-              className="object-contain"
-              priority
-              sizes="100vw"
-            />
-          </div>
+    <div className="w-full relative h-[30rem]">
+      <Image src={imgUrl} alt="" fill></Image>
 
-          <div className="hidden text-white space-x-10 lg:flex">
-            <nav className="flex space-x-10">
-              <Button variant="link" className="space-x-2  ">
-                English
-              </Button>
-            </nav>
-            <Button  variant="link"  className="space-x-2 rounded-lg">Join Our Waitlist</Button>
+      <PaddingWrapper>
+        <div className=" absolute  lg:top-[6rem] ">
+          <div className=" px-4 mt-2 lg:mt-[4rem] max-w-[45rem]">
+            <p className="text-primary uppercase">{title}</p>
+            <h1 className=" text-white uppercase lg:text-5xl lg:pb-2 cinzel  text-4xl font-[700] tracking-tight leading-[1.5]">
+            {desc}
+            </h1>
           </div>
         </div>
       </PaddingWrapper>
-    </header>
+    </div>
   );
-};
+}
 
 export default Header;

@@ -8,7 +8,7 @@ import Projects from "@/components/home/Projects";
 import Testimonials from "@/components/home/Testimonials";
 import ContactUs from "@/components/home/ContactUs";
 
-function home() {
+function Home() {
   return (
     <div>
       <HeroSection />
@@ -23,4 +23,4 @@ function home() {
   );
 }
 
-export default home;
+export default Home;
