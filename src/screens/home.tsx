@@ -7,6 +7,7 @@ import Qoute from "@/components/home/Qoute";
 import Projects from "@/components/home/Projects";
 import Testimonials from "@/components/home/Testimonials";
 import ContactUs from "@/components/home/ContactUs";
+import Footer from "@/components/layouts/Footer";
 
 function Home() {
   return (
@@ -19,6 +20,7 @@ function Home() {
       <Projects />
       <Testimonials />
       <ContactUs />
+      <Footer />
     </div>
   );
 }

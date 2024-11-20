@@ -9,7 +9,7 @@ function ProjectSection() {
         <div className="flex items-center gap-10 p-16 max-w-[60rem]">
           <h4 className="cinzel  text-6xl font-[700]">Empowering Change</h4>
           <p>
-            Our projects showcase the breadth and depth of our expertise. We've
+            Our projects showcase the breadth and depth of our expertise. We have
             partnered with diverse organizations, from international NGOs to
             government agencies, tackling critical GESI challenges across
             various sectors like health, education, and sustainable economic

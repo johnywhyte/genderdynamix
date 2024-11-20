@@ -15,8 +15,8 @@ function Qoute() {
         />
 
         <PaddingWrapper>
-          <div className=" absolute px-4 mt-2 lg:top-[8rem]  max-w-[30rem]">
-            <h1 className=" text-white   lg:text-3xl lg:pb-2   text-4xl font-light tracking-tight leading-[1.5]">
+          <div className=" absolute px-4 mt-2  top-[8rem]  max-w-[30rem]">
+            <h1 className=" text-white  lg:text-4xl lg:pb-2  text-xl font-light tracking-tight leading-[1.5]">
               The single biggest difference we can make in the developing world
               is to educate and empower women.
             </h1>

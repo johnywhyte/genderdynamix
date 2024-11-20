@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import type { Metadata } from "next";
 import { Cinzel } from "next/font/google";
 import { Inter } from "next/font/google";
@@ -24,6 +25,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+       <Head>
+        <link rel="icon" href="./icon.png" />
+      </Head>
       <body className={`${inter.className}`}>
         {children}
       </body>
