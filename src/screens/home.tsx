@@ -7,8 +7,9 @@ import Qoute from "@/components/home/Qoute";
 import Projects from "@/components/home/Projects";
 import Testimonials from "@/components/home/Testimonials";
 import ContactUs from "@/components/home/ContactUs";
+import Footer from "@/components/layouts/Footer";
 
-function home() {
+function Home() {
   return (
     <div>
       <HeroSection />
@@ -19,8 +20,9 @@ function home() {
       <Projects />
       <Testimonials />
       <ContactUs />
+      <Footer />
     </div>
   );
 }
 
-export default home;
+export default Home;
