@@ -11,7 +11,7 @@ function ServiceCard({
   desc: string;
 }) {
   return (
-    <div className=" p-10 border rounded-xl">
+    <div className=" p-10 mb-6 border rounded-xl">
       <Image src={imgUrl} alt="" width={60} height={60} className="pb-4"></Image>
       <div>
         <h4 className="text-2xl font-semibold pb-4">{title}</h4>

@@ -17,7 +17,7 @@ function WhoAreWe() {
             <h2 className="  lg:hidden text-3xl font-[700] pb-4 cinzel">
               WHO  WE ARE
             </h2>
-            <p>
+            <p className="font-light">
             Gender Dynamix Consult Limited is more than just a consulting firm; we are a passionate team of GESI experts driven by the same values of equality and social inclusion that underpin the UNs mission. We have a proven track record of collaborating with international organizations to develop and implement effective GESI strategies tailored to the Nigerian context.
             </p>
           </div>
