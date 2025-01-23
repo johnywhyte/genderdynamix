@@ -12,10 +12,10 @@ function Desc() {
           fill
           className="rounded-2xl "
         ></Image>
-        <div className="absolute text-white flex p-20 w-full gap-20 items-center ">
-          <div className=" flex max-w-[50rem] gap-10 items-center">
+        <div className="absolute text-white lg:flex lg:p-20 w-full gap-20 items-center ">
+          <div className="p-4 lg:flex lg:max-w-[50rem] gap-10 items-center">
             <h4 className="cinzel font-bold text-4xl">Services</h4>
-            <p>
+            <p className="text-sm mt-3">
               At Gender Dynamix Consult, we offer a comprehensive suite of
               services designed to promote Gender Equality and Social Inclusion
               (GESI). Our expertise spans various sectors including health,

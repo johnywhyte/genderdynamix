@@ -4,10 +4,10 @@ import Image from "next/image";
 
 function OurCulture() {
   return (
-    <div className="my-[8rem]">
+    <div className="">
       <PaddingWrapper>
         <div className=" md:flex gap-10 items-center">
-          <div className="pt-20  w-1/2 pb-20">
+          <div className="pt-20  lg:w-1/2 pb-20">
             <h2 className="text-6xl font-[700] uppercase cinzel pb-4">
               Our <br />
               Culture
@@ -20,7 +20,7 @@ function OurCulture() {
               achieve the best outcomes at Gender Dynamix Consult.
             </p>
           </div>
-          <div className="relative  w-1/2 h-[21rem]">
+          <div className="relative  lg:w-1/2 h-[21rem]">
             <Image src="/images/ourculture.png" alt="" fill></Image>
           </div>
         </div>

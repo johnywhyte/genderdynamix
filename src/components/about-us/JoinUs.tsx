@@ -6,7 +6,7 @@ function JoinUs() {
   return (
     <div className="flex  lg:mx-[16rem] relative justify-center max-[700px] lg:my-16">
       <div className=" h-[22rem]">
-        <Image src="/images/joinusimg.png" alt="" fill className=""></Image>
+        <Image src="/images/joinusimg.png" alt="" fill className=" object-cover"></Image>
 
         <div className=" absolute text-center flex justify-center w-full left-[1rem]  top-[6rem] px-4 ">
           <div>

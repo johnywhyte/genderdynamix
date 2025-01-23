@@ -5,7 +5,7 @@ import PaddingWrapper from "../layouts/PaddingWrapper";
 function MissionSection() {
   return (
     <PaddingWrapper>
-      <div className="flex gap-10">
+      <div className="md:flex gap-10">
         <MissionCard
           imgUrl={"/images/mission.svg"}
           title={"Our Mission"}

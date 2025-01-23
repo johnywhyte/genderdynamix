@@ -38,7 +38,7 @@ function Footer() {
     <div className="py-8">
       <PaddingWrapper>
         <div className="pb-8 lg:flex justify-between">
-          <div className="relative h-[60px] w-[240px] mb-8 cursor-pointer">
+          <div className="relative h-[60px] w-[140px] mb-8 cursor-pointer">
             <Image
               src="/images/darklogo.png"
               alt="1UBank Logo"
