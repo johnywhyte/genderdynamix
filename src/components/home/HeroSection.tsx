@@ -3,6 +3,7 @@ import React from "react";
 import PaddingWrapper from "@/components/layouts/PaddingWrapper";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import Menu from "./Menu";
 
 function HeroSection() {
   return (
@@ -11,14 +12,19 @@ function HeroSection() {
         <header className="z-10 top-0 left-0 right-0 absolute py-2   w-full ">
           <PaddingWrapper>
             <div className="flex w-full items-center justify-between">
-              <div className="relative h-[6rem] w-[15rem] cursor-pointer">
-                <Image
-                  src="/images/logo.png"
-                  alt="genderdynamics Logo"
-                  fill
-                  className="object-contain"
-                  priority
-                />
+              <div className="relative h-[6rem] w-[10rem] lg:w-[15rem] cursor-pointer">
+                <Link href="/" className="text-sm">
+                  <Image
+                    src="/images/logo.png"
+                    alt="genderdynamics Logo"
+                    fill
+                    className="object-contain"
+                    priority
+                  />
+                </Link>
+              </div>
+              <div className="lg:hidden ">
+                <Menu />
               </div>
               <div className="hidden lg:flex">
                 <nav className="flex space-x-4">
@@ -55,6 +61,7 @@ function HeroSection() {
             </div>
           </PaddingWrapper>
         </header>
+
         <Image
           src={"/images/heroimg.png"}
           alt={""}

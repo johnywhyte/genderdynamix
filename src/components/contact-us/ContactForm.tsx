@@ -6,8 +6,8 @@ function ContactForm() {
   return (
     <div className="my-20">
       <PaddingWrapper>
-        <div className=" flex gap-20">
-          <div className="w-1/2 flex flex-col gap-6">
+        <div className=" lg:flex gap-20">
+          <div className="lg:w-1/2 flex flex-col gap-6">
             <div className="uppercase">
               <p className="text-secondary my-4 bg-secondary-foreground w-[15rem] text-center flex justify-center p-2  rounded-full">Connect with us</p>
               <h4 className="text-4xl font-[700] cinzel">Get In Touch</h4>
@@ -64,15 +64,15 @@ function ContactForm() {
             </Button>
           </div>
 
-          <div className="p-20 border rounded-2xl w-1/2">
+          <div className="p-4 mt-20 lg:mt-0 lg:p-20 border rounded-2xl lg:w-1/2">
             <p className="text-md pb-10">
               Gender Dynamix Consult Limited is a Nigerian women-led consultancy
               firm using GESI expertise to empower organizations and build a
               more equitable Nigeria.
             </p>
-            <p className="font-medium pb-2 text-xl">No 72, Birnin Kebbi Crescent, Garki, Abuja</p>
-            <p className="font-medium pb-2 text-xl">+2348067750659</p>
-            <p className="font-medium text-xl">info@genderdynamixconsult.com</p>
+            <p className="font-medium pb-2 text-md lg:text-xl">No 72, Birnin Kebbi Crescent, Garki, Abuja</p>
+            <p className="font-medium pb-2 text-md lg:text-xl">+2348067750659</p>
+            <p className="font-medium text-md lg:text-xl">info@genderdynamixconsult.com</p>
           </div>
         </div>
       </PaddingWrapper>

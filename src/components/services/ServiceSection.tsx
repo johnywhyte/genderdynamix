@@ -6,7 +6,7 @@ function ServiceSection() {
   return (
     <div>
       <PaddingWrapper>
-        <div className="grid grid-cols-3 gap-4">
+        <div className="lg:grid grid-cols-3 gap-4">
           <ServiceCard
             imgUrl={"/images/serviceicon.svg"}
             title={
