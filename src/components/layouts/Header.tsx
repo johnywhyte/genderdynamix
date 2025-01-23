@@ -19,7 +19,7 @@ function Header({
         <div className=" absolute top-[3rem] lg:top-[6rem] ">
           <div className=" px-4 mt-2 lg:mt-[4rem] max-w-[45rem]">
             <p className="text-primary uppercase">{title}</p>
-            <h1 className=" text-white uppercase lg:text-5xl lg:pb-2 cinzel  text-4xl font-[700] tracking-tight leading-[1]  lg:leading-[1.5]">
+            <h1 className=" text-white uppercase lg:text-5xl lg:pb-2 cinzel  text-4xl font-[700] tracking-tight leading-[1]  lg:leading-[1.2]">
             {desc}
             </h1>
           </div>
