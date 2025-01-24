@@ -5,7 +5,7 @@ import PaddingWrapper from "../layouts/PaddingWrapper";
 function OurImpact() {
   return (
     <PaddingWrapper>
-      <div className="flex flex-col gap-10 justify-center">
+      <div className="flex mt-10 flex-col gap-10 justify-center">
         <div className="flex justify-center">
           <div className="max-w-[40rem]">
             <div className="flex  justify-center ">
