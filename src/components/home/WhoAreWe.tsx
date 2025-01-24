@@ -8,7 +8,7 @@ function WhoAreWe() {
       <PaddingWrapper>
         <div className=" md:flex items-center">
           <div className="md:w-1/3 pt-20 pb-20">
-            <h2 className="text-6xl font-[700] cinzel">
+            <h2 className="text-5xl font-[700] cinzel">
               WHO <br /> WE ARE
             </h2>
             <p>

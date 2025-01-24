@@ -5,11 +5,11 @@ import PaddingWrapper from "../layouts/PaddingWrapper";
 function OurImpact() {
   return (
     <PaddingWrapper>
-      <div className="flex flex-col gap-10 justify-center">
+      <div className="flex mt-10 flex-col gap-10 justify-center">
         <div className="flex justify-center">
           <div className="max-w-[40rem]">
             <div className="flex  justify-center ">
-              <h1 className="text-4xl text-center md:text-end lg:text-6xl font-semibold cinzel">
+              <h1 className="text-4xl text-center md:text-end lg:text-5xl font-semibold cinzel">
                 Our Impact
               </h1>
             </div>

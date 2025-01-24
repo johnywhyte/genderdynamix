@@ -19,7 +19,7 @@ function OurServices() {
           </div>
           <div className="md:w-1/2 text-white pt-20">
             <div>
-              <h2 className="text-6xl font-[700] cinzel">
+              <h2 className="text-5xl font-[700] cinzel">
                 WHO <br /> WE ARE
               </h2>
               <p>
