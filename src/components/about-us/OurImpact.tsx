@@ -9,7 +9,7 @@ function OurImpact() {
         <div className="flex justify-center">
           <div className="max-w-[40rem]">
             <div className="flex  justify-center ">
-              <h1 className="text-4xl text-center md:text-end lg:text-6xl font-semibold cinzel">
+              <h1 className="text-4xl text-center md:text-end lg:text-5xl font-semibold cinzel">
                 Our Impact
               </h1>
             </div>

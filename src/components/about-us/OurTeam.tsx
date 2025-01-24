@@ -7,7 +7,7 @@ function OurTeam() {
     <div className="bg-[#831DEA] my-4 py-8">
       <div className="hidden lg:flex gap-4 items-center">
         <div className="w-2/5 pb-10 md:pl-[10rem] text-white">
-          <h1 className="text-6xl pb-6 cinzel">OUR TEAM</h1>
+          <h1 className="text-5xl pb-6 cinzel">OUR TEAM</h1>
           <p className="font-light">
             We parade a world-class team of professionals with diverse
             expertise, extensive technical skills, and experience across sectors
@@ -65,6 +65,5 @@ function OurTeam() {
     </div>
   );
 }
-
 
 export default OurTeam;

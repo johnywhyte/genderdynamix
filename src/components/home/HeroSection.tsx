@@ -66,21 +66,24 @@ function HeroSection() {
           src={"/images/heroimg.png"}
           alt={""}
           fill
-          className="object-cover"
+          className="object-cover "
         ></Image>
         <PaddingWrapper>
-          <div className=" absolute  top-[14rem]  justify-center ">
+          <div className=" absolute  top-[10rem]  justify-center ">
             <div className=" px-4 mt-2 lg:mt-[4rem] max-w-[55rem]">
               <h1 className=" text-white uppercase lg:text-7xl lg:pb-2 cinzel  text-4xl font-[700] tracking-tight leading-[1.5]">
                 Transforming Communities, Empowering Lives.
               </h1>
+              <Link href="/about" className="text-sm">
               <Button
                 variant="default"
                 size="lg"
                 className=" rounded-full text-white "
+
               >
                 Learn More
               </Button>
+              </Link>
             </div>
           </div>
         </PaddingWrapper>

@@ -9,7 +9,7 @@ function Testimonials() {
         <div className="flex flex-col ">
           <div>
             <h6 className="text-center	"> What they say about us</h6>
-            <h1 className="font-[700] text-6xl text-center	cinzel">
+            <h1 className="font-[700] text-5xl text-center	cinzel">
               Testimonials
             </h1>
           </div>

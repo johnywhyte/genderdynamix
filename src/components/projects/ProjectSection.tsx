@@ -7,7 +7,7 @@ function ProjectSection() {
     <div className="flex justify-center">
       <PaddingWrapper>
         <div className="lg:flex my-8 items-center gap-10 lg:p-16 lg:max-w-[60rem]">
-          <h4 className="cinzel text-3xl lg:text-6xl font-[700]">
+          <h4 className="cinzel text-3xl lg:text-5xl font-[700]">
             Empowering Change
           </h4>
           <p className="">

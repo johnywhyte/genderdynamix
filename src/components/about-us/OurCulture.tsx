@@ -8,7 +8,7 @@ function OurCulture() {
       <PaddingWrapper>
         <div className=" md:flex gap-10 items-center">
           <div className="pt-20  lg:w-1/2 pb-20">
-            <h2 className="text-6xl font-[700] uppercase cinzel pb-4">
+            <h2 className="text-5xl font-[700] uppercase cinzel pb-4">
               Our <br />
               Culture
             </h2>
